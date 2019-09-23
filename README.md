@@ -1,4 +1,4 @@
-# MachineLearningFoundation
+# Machine Learning Foundation Project (Term3)
 Myocardial Infarction prediction Project 
 
 Contents:
