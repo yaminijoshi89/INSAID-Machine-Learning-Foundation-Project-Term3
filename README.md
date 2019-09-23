@@ -2,7 +2,7 @@
 #### Myocardial Infarction prediction Project 
 __[Classification project]__
 
-![title](Capture.png)
+![title](Capture.PNG)
 
 __Contents of the PPT:__
 1. Understanding Myocardial Infarction
