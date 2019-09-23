@@ -5,33 +5,26 @@ __[Classification project]__
 ![title](mifem.png)
 
 __Contents of the PPT:__
-> Understanding Myocardial Infarction
+1. Understanding Myocardial Infarction
 
-> Objective of Analysis and Data-Set Description EDA :
+2. Objective of Analysis and Data-Set Description EDA :
 
-  > Age Distribution
-  
-  > Year Wise Outcome Frequency
-  
-  > Smoking Status
-  
-  > MI Symptoms Box-plots
-  
-  > MI Symptoms Frequency as per outcome
-  
-  > Survival and Mortality Ratio Pie-Chart
-  
-  > Correlation between Categorical Variables
-  
-  > Exploratory Data Analysis Summary
-    
-> Classification Model Selection 
+  - Age Distribution
+  - Year Wise Outcome Frequency
+  - Smoking Status
+  - MI Symptoms Box-plots
+  - MI Symptoms Frequency as per outcome
+  - Survival and Mortality Ratio Pie-Chart
+  - Correlation between Categorical Variables
+  - Exploratory Data Analysis Summary
+   
+3. Classification Model Selection 
 
-> Model Selection and Evaluation (Confusion Matrix and Accuracy Score)
+4. Model Selection and Evaluation (Confusion Matrix and Accuracy Score)
 
-> Model Evaluation using AUC/ROC Curve
+5. Model Evaluation using AUC/ROC Curve
 
-> Conclusion 
+6. Conclusion 
 
 Myocardial Infarction is medical name of a heart attack. Heart Attack is caused by regular blockage in oxygen flow to the heart. 
 Most heart attacks result from atherosclerosis (Narrowing and hardening of arteries due to a build-up of plaque round artery wall). Due to this build-up, the oxygen flow reduces and the arteries are damaged which result in heart attack or stroke. The risk factors for heart attack and atherosclerosis are basically the same: High BP, High Cholesterol, Diabetes, poor diet, no physical activity etc.
@@ -47,7 +40,7 @@ We are going to study/analyse mortality outcomes for females suffering from Myoc
 Our data have following explanatory/independent variables:
 1. age (age at onset) : Age of the person when first diagnosed with MI
 2. yronset (year of onset) : Year when the diagnosis took place
-3. premi (previous myocardial infarction event, a factor with levels y, n, nk not known ) :  Value                   indicating MI event after diagnosis
+3. premi (previous myocardial infarction event, a factor with levels y, n, nk not known ) :  Value indicating MI event after diagnosis
 4. Smstat (smoking status, a factor with levels c current, x ex-smoker, n non-smoker, nk not known) 
 5. diabetes (a factor with levels y, n, nk not known)
 6. highbp (high blood pressure, a factor with levels y, n, nk not known )
@@ -59,20 +52,15 @@ And target/response (dependent) variable:
 10. outcome (mortality outcome, a factor with levels live, dead)
 
 #### Models Used -
-> Logistic Regression
-
-> Decision Tree
-
-> Random Forest 
+- Logistic Regression
+- Decision Tree
+- Random Forest 
 
 #### Oversampling using SMOTE
 
 #### Cross-validation using K-Fold
 
 #### Model Evaluation
-
-> Confusion Matrix
-
-> Accuracy Scores
-
-> AUC/ROC curve
+- Confusion Matrix
+- Accuracy Scores
+- AUC/ROC curve
