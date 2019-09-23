@@ -1,7 +1,9 @@
 # Machine Learning Foundation Project (Term3)
-Myocardial Infarction prediction Project 
+#### Myocardial Infarction prediction Project 
 
-Contents:
+![title](mifem.png)
+
+__Contents:__
 > Understanding Myocardial Infarction
 
 > Objective of Analysis and Data-Set Description EDA :
@@ -35,11 +37,11 @@ Most heart attacks result from atherosclerosis (Narrowing and hardening of arter
 
 In early middle age, men have a greater risk of heart attack than women. However, a woman's risk increases once she begins menopause. This could be the result of a menopause-related decrease in levels of estrogen, a female sex hormone that may offer some protection against atherosclerosis.
 
-OBJECTIVE:
+## OBJECTIVE:
 
 We are going to study/analyse mortality outcomes for females suffering from Myocardial Infarction.Each point in the dataset have had a case of myocardial infarction in past. According to sources, the common causes of MI are diabetes, old age, high cholesterol, poor diet, no exercise etc. Now, the objective of this research will be to find out whether these underlying causes actually contribute to MI or not. Also, the severity (dead or live) might depend on the underlying causes.
 
-Data Description
+## Data Description
 
 Our data have following explanatory/independent variables:
 1. age (age at onset) : Age of the person when first diagnosed with MI
@@ -55,5 +57,21 @@ Our data have following explanatory/independent variables:
 And target/response (dependent) variable:
 10. outcome (mortality outcome, a factor with levels live, dead)
 
+#### Models Used -
+> Logistic Regression
 
+> Decision Tree
 
+> Random Forest 
+
+#### Oversampling using SMOTE
+
+#### Cross-validation using K-Fold
+
+#### Model Evaluation
+
+> Confusion Matrix
+
+> Accuracy Scores
+
+> AUC/ROC curve
