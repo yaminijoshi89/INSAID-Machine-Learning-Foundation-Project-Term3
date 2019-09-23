@@ -1,9 +1,10 @@
 # Machine Learning Foundation Project (Term3)
 #### Myocardial Infarction prediction Project 
+__[Classification project]__
 
 ![title](mifem.png)
 
-__Contents:__
+__Contents of the PPT:__
 > Understanding Myocardial Infarction
 
 > Objective of Analysis and Data-Set Description EDA :
