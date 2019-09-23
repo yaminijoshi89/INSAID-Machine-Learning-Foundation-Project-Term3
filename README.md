@@ -2,7 +2,7 @@
 Myocardial Infarction prediction Project 
 
 Contents:
-> Understanding Myocardial Infarction
+> Understanding Myocardial Infarction/n
 > Objective of Analysis and Data-Set Description EDA :
 > Age Distribution
 > Year Wise Outcome Frequency
