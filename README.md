@@ -2,19 +2,32 @@
 Myocardial Infarction prediction Project 
 
 Contents:
-> Understanding Myocardial Infarction/n
+> Understanding Myocardial Infarction
+
 > Objective of Analysis and Data-Set Description EDA :
-> Age Distribution
-> Year Wise Outcome Frequency
-> Smoking Status
-> MI Symptoms Box-plots
-> MI Symptoms Frequency as per outcome
-> Survival and Mortality Ratio Pie-Chart
-> Correlation between Categorical Variables
-> Exploratory Data Analysis Summary
+
+  > Age Distribution
+  
+  > Year Wise Outcome Frequency
+  
+  > Smoking Status
+  
+  > MI Symptoms Box-plots
+  
+  > MI Symptoms Frequency as per outcome
+  
+  > Survival and Mortality Ratio Pie-Chart
+  
+  > Correlation between Categorical Variables
+  
+  > Exploratory Data Analysis Summary
+    
 > Classification Model Selection 
+
 > Model Selection and Evaluation (Confusion Matrix and Accuracy Score)
+
 > Model Evaluation using AUC/ROC Curve
+
 > Conclusion 
 
 Myocardial Infarction is medical name of a heart attack. Heart Attack is caused by regular blockage in oxygen flow to the heart. 
@@ -23,6 +36,7 @@ Most heart attacks result from atherosclerosis (Narrowing and hardening of arter
 In early middle age, men have a greater risk of heart attack than women. However, a woman's risk increases once she begins menopause. This could be the result of a menopause-related decrease in levels of estrogen, a female sex hormone that may offer some protection against atherosclerosis.
 
 OBJECTIVE:
+
 We are going to study/analyse mortality outcomes for females suffering from Myocardial Infarction.Each point in the dataset have had a case of myocardial infarction in past. According to sources, the common causes of MI are diabetes, old age, high cholesterol, poor diet, no exercise etc. Now, the objective of this research will be to find out whether these underlying causes actually contribute to MI or not. Also, the severity (dead or live) might depend on the underlying causes.
 
 Data Description
