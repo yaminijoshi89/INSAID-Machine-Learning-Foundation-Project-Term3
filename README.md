@@ -57,8 +57,11 @@ And target/response (dependent) variable:
 - Random Forest 
 
 #### Oversampling using SMOTE
+-- In our dataset, we have two outcome classes 'live' or 'dead'. Since 75% of our data comprise of outcome 'live' and 25% 'dead', this leads to unbalanced classes. This means that if we use this data for prediction and it predicts every new data point as 'live', it would still be 75% accurate. But we still need to identify 'dead' outcome cases, to study the symptoms more accurately.
+For this we do oversampling, using SMOTE we increase the data points of scarce class and bring it equal to the   other class.
 
 #### Cross-validation using K-Fold
+-- Using K-fold we divide the dataset K times (here K is any number) into train-test and check the model's accuracy on K different test data. Finally we take mean accuracy of all K runs and decide the best model or get an idea of model accuracy. 
 
 #### Model Evaluation
 - Confusion Matrix
